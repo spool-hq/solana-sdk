@@ -1,13 +1,17 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "files.eol": "\n",
   "editor.formatOnSave": true,
   "editor.wordWrap": "on",
   "[typescript]": {
     "editor.codeActionsOnSave": {
-      "source.organizeImports": false
+      "source.organizeImports": "never"
     }
-  }
+  },
+  "rust-analyzer.linkedProjects": [
+    "./rust/switchboard-solana/Cargo.toml",
+    "./rust/switchboard-v2/Cargo.toml"
+  ]
 }
