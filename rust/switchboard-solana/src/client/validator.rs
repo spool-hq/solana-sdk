@@ -465,7 +465,6 @@ impl FunctionResultValidator {
                 sig_verify: false,
                 replace_recent_blockhash: replace_blockhash,
                 commitment: Some(CommitmentConfig::processed()),
-                inner_instructions: false,
                 encoding: None,
                 accounts: None,
                 min_context_slot: None,
