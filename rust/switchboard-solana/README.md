@@ -190,3 +190,9 @@ vrf_request_randomness.invoke_signed(
 )?;
 
 ```
+
+# Build
+
+```bash
+RUSTFLAGS=-Awarnings cargo build
+```

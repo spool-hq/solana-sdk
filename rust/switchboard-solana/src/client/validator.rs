@@ -468,6 +468,7 @@ impl FunctionResultValidator {
                 encoding: None,
                 accounts: None,
                 min_context_slot: None,
+                ..Default::default()
             }).await
         {
             Ok(resp) => {
